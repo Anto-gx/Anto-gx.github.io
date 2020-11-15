@@ -1,0 +1,250 @@
+body
+{
+    /*background-image : url("../images/fond.jpg") 1920px 1080px;*/
+    background:#C5C5C5;
+    font-family: "Arial";
+    font-size: 13px;
+}
+
+h1
+{
+    font-weight: normal;
+    font-size: 230%;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+h2
+{
+    font-size: 150%;
+}
+
+#site
+{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#header 
+{
+    padding-top: 42px;
+    padding-left: 82px;
+    top: 0;
+}
+
+#contenu 
+{   
+    color: #535252;
+    text-align: justify, center;
+    min-height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 950px;
+}
+
+#footer 
+{
+    text-align: center;
+    background-color: #5c5b5b;
+    padding: 40px 15px 15px 40px;
+}
+
+#menu 
+{
+    height: 34px;
+    font-size: 130%;
+    color: #FFFFFF;
+    font-variant: small-caps;
+    text-align: center;
+}
+
+.element 
+{
+    display: inline;
+    cursor: pointer;
+    margin-right: 15px;
+    padding: 0 0 0 6px;
+    font-size: 25px;
+}
+
+.element a 
+{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.element2 
+{   
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 25px;
+}
+
+.element2 a
+{
+    text-decoration: none;
+    color: #5d5d5d;    
+}
+
+.acceuil
+{
+    color: #9f9f9f;
+}
+
+.img
+{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 5px;
+}
+
+.texte
+{
+    text-align: center;
+    font-size: 15px;
+}
+
+.titre
+{   
+    margin-top: 35px;
+    font-size: 45px;
+    text-align: center;
+    color: #5d5d5d;
+}
+
+.imgpre
+{
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.retour
+{
+    display: inline;
+    cursor: pointer;
+}
+
+.retour a
+{
+    text-decoration: none;
+    color: #d1d1d1;
+    font-size: 23px;
+}
+
+.video
+{
+    text-align: center;
+}
+.liste
+{
+    text-align: center;
+}
+table,td 
+{   
+    font-size: x-large;
+    width: 900px;
+    height: 125px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #333;
+}
+
+thead,tfoot 
+{
+    
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+}
+.imgliste
+{
+    border-radius: 3px;
+}
+.bttn,.bttn-md
+ {
+  margin: 0;
+  padding: 0;
+  border-width: 0;
+  border-color: transparent;
+  background: transparent;
+  font-weight: 400;
+  cursor: pointer;
+  position: relative;
+}
+
+.bttn-md {
+  font-size: 20px;
+  font-family: inherit;
+  padding: 5px 12px;
+}
+
+.bttn-jelly {
+  margin: 0;
+  padding: 0;
+  border-width: 0;
+  border-color: transparent;
+  background: transparent;
+  font-weight: 400;
+  cursor: pointer;
+  position: relative;
+  font-size: 20px;
+  font-family: inherit;
+  padding: 5px 12px;
+  overflow: hidden;
+  border-radius: 50px;
+  background: #fff;
+  color: #a8a8a8;
+  -webkit-transition: all 0.2s cubic-bezier(0.02, 0.01, 0.47, 1);
+  transition: all 0.2s cubic-bezier(0.02, 0.01, 0.47, 1);
+}
+.bttn-jelly:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  background: currentColor;
+  content: '';
+  z-index: -1;
+  opacity: 0;
+  -webkit-transition: all 0.2s cubic-bezier(0.02, 0.01, 0.47, 1);
+  transition: all 0.2s cubic-bezier(0.02, 0.01, 0.47, 1);
+  -webkit-transform: scale(0.2);
+          transform: scale(0.2);
+}
+.bttn-jelly:hover,
+.bttn-jelly:focus {
+  box-shadow: 0 1px 8px rgba(58,51,53,0.4);
+  -webkit-transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
+  transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.bttn-jelly:hover:before,
+.bttn-jelly:focus:before {
+  opacity: 0.15;
+  -webkit-transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
+  transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.bttn-jelly.bttn-md {
+  font-size: 20px;
+  font-family: inherit;
+  padding: 5px 12px;
+}
+.bttn-jelly.bttn-md:hover,
+.bttn-jelly.bttn-md:focus {
+  box-shadow: 0 1px 8px rgba(58,51,53,0.4);
+}
+
+.bttn-jelly.bttn-primary {
+  background: #a5a4a4;
+  color: #fff;
+}
