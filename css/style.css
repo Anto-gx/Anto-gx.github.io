@@ -1,8 +1,13 @@
+@font-face
+{
+    font-family: "mapolice";
+    src : url("police/Montserrat.ttf")
+}
+
 body
 {
-    /*background-image : url("../images/fond.jpg") 1920px 1080px;*/
     background:#C5C5C5;
-    font-family: "Arial";
+    font-family: "mapolice";
     font-size: 13px;
 }
 
@@ -17,6 +22,11 @@ h1
 h2
 {
     font-size: 150%;
+}
+
+p
+{
+    margin-top: 10px;
 }
 
 #site
@@ -88,6 +98,22 @@ h2
     color: #5d5d5d;    
 }
 
+.float
+{
+    float: left;
+}
+
+.saison
+{
+    color: #2b2a2a;
+    font-size: 25px;
+}
+
+.episode
+{
+    color: #2b2a2a;
+    font-size: 20px;
+}
 .acceuil
 {
     color: #9f9f9f;
@@ -120,6 +146,8 @@ h2
 {
     margin-top: 40px;
     border-radius: 10px;
+    text-align: left;
+    box-shadow: #333 4px 2px ;
 }
 
 .retour
